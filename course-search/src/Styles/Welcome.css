@@ -1,0 +1,28 @@
+.welcome-parent {
+    display: flex;
+    flex-grow: 1;
+    border: 2px solid orange;
+}
+
+.welcome-left-content {
+    flex: 1;
+    background-color: #EBEBEB;
+    border: 1px solid red;
+}
+
+.welcome-right-content {
+    flex: 2;
+    /* margin-left: 5%; */
+    /* margin-top: 2%; */
+
+    align-items: 'center';
+    border: 1px solid black;
+}
+
+.body-text {
+    align-items: flex-start;
+}
+
+.body-text h1 {
+    font-weight: 200;
+}

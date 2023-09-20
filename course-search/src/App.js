@@ -5,6 +5,9 @@ import About from './Pages/About';
 import Navigation from './Navigation';
 import './App.css';
 
+import "@fontsource/readex-pro";
+import "@fontsource/readex-pro/400.css"; // specific weight (higher is heavier/more bold)
+
 function App() {
   const [currentPage, setCurrentPage] = useState('main'); // Default to 'main'
 
@@ -27,7 +30,7 @@ function App() {
   // );
   return (
     <div className = "App">
-      <About/>
+      <Main/>
     </div>
   )
 }
