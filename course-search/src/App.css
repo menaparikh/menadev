@@ -1,5 +1,6 @@
-.App {
-  height: 800px;
-  border: 1px solid black;
-  background-color: #8CA0D7;
+.App, html, body {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+  margin: 0;
 }
