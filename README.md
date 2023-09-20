@@ -4,6 +4,8 @@ Hi everyone! My name is Mena, and I'm an aspiring software developer.
 
 I've been coding for the last 12 months, and I've worked on the projects below. To see more about what I've learned from each one and questions I still have, open the folders and see their respective README.md files for more. 
 
+The URL for my project is [here](https://menaparikh.github.io/menadev/).
+
 # Past Projects
 Over the past 12 months, I have created:
 * Tic-tac-toe
