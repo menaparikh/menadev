@@ -2,16 +2,29 @@ import React, { useState, useEffect } from 'react';
 import profpic from '../Assets/profpic.jpg';
 import menuicon from '../Assets/menuicon.png';
 import '../Styles/About.css';
+import Sidebar from '../Components/Sidebar';
 
 function About() {
+  const [navigationToggled, setNavigationToggled] = useState(false);
+
+  // if the Sidebar component is clicked then we want it to show up 
+  const toggleNavigation = () => {
+    setNavigationToggled(!navigationToggled);
+  }
+
   return (
     <div className="about-parent">
       <div className="about-content">
         <div className="left-menu">
-          <img src={menuicon} style={{
-            width: 50,
-            height: 50
-          }} />
+          <button onClick={toggleNavigation} style={{
+            backgroundColor: "#8CA0D7"
+          }}>
+            <img src={menuicon} style={{
+              width: 50,
+              height: 50
+            }} />
+          <Sidebar isOpen={navigationToggled}/>
+          </button>
         </div>
         <div className="welcome-content">
           <h1 style={{

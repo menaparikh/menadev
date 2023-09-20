@@ -21,13 +21,13 @@ function App() {
 
   // return (
     // <div className="App">
-      // <Navigation setPage={setCurrentPage} />
-      // {content}
+    //   <Navigation setPage={setCurrentPage} />
+    //   {content}
     // </div>
-//   );
+  // );
   return (
     <div className = "App">
-      <About/>
+      <Welcome/>
     </div>
   )
 }
