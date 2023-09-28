@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import '../Styles/Main.css';
 import CourseSquare from '../Components/CourseSquare';
 
-
 function Main() {
   return (
     <div className="main-parent">

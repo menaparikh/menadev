@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Main from './Pages/Main';
 import Welcome from './Pages/Welcome';
 import About from './Pages/About';
+import Homework from './Pages/Homework'
 import Navigation from './Navigation';
 import './App.css';
 
@@ -14,7 +15,7 @@ function App() {
   let content;
 
   if (currentPage === 'main') {
-    content = <Main />;
+    content = <Homework />;
   } else if (currentPage === 'welcome') {
     content = <Welcome />;
   }
@@ -30,7 +31,7 @@ function App() {
   // );
   return (
     <div className = "App">
-      <Main/>
+      <Homework/>
     </div>
   )
 }

@@ -21,6 +21,17 @@
     font-size: 1em;
 }
 
+.course-category-button {
+    cursor: pointer;
+    box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.5);
+}
+
+.course-category-button:hover {
+    background-color: #2F195F;
+    color: white;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.5);
+}
+
 .course-name-text {
     font-size: 2em;
 }
