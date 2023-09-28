@@ -1,15 +1,26 @@
 .course-item {
     display: flex;
+    flex-direction: column;
 
     background-color: #EDD3C4;
     border-radius: 30px;
-    padding: 10px;
 
     margin: 100px;
     
-    width: 300px;
-    height: 300px;
+    width: 15%;
+    height: 0;
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
 
+    /* Place text in the vertical and horizontal middle of the container */
     align-items: center;
+    justify-content: center;
     text-align: center;
+
+    text-align: center;
+    font-size: 1em;
+}
+
+.course-name-text {
+    font-size: 2em;
 }

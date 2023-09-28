@@ -4,7 +4,7 @@ import "../Styles/ComponentStyles/CourseSquare.css";
 function CourseSquare({ courseName }) {
   return (
     <div className="course-item">
-        <p>{courseName}</p>
+        <p className="course-name-text">{courseName}</p>
     </div>
   );
 }
