@@ -1,0 +1,18 @@
+.homework-parent {
+    display: flex;
+    background-color: #8CA0D7;
+    flex-direction: row;
+}
+
+.main-header-text {
+    align-self: center;
+}
+
+.courses {
+    display: flex;
+    border: 1px solid black;
+
+    justify-content:space-evenly;
+    
+    text-align: left;
+}
