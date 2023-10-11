@@ -5,26 +5,11 @@ import '../Styles/About.css';
 import Sidebar from '../Components/Sidebar';
 
 function About() {
-  const [navigationToggled, setNavigationToggled] = useState(false);
-
-  // if the Sidebar component is clicked then we want it to show up 
-  const toggleNavigation = () => {
-    setNavigationToggled(!navigationToggled);
-  }
-
   return (
     <div className="about-parent">
       <div className="about-content">
         <div className="left-menu">
-          <button onClick={toggleNavigation} style={{
-            backgroundColor: "#8CA0D7"
-          }}>
-            <img src={menuicon} style={{
-              width: 50,
-              height: 50
-            }} />
-          <Sidebar isOpen={navigationToggled}/>
-          </button>
+        <Sidebar/>
         </div>
         <div className="welcome-content">
           <h1 style={{
@@ -33,7 +18,7 @@ function About() {
           <div className="about-body">
             <div className="about-text">
               <p style={{
-                fontSize: 20,
+                fontSize: 30,
                 lineHeight: 1.5
               }}>Hi, I'm Mena! I'm a 13 year old student and aspiring software
                 developer. This is my first fully-hosted React project, and I'm

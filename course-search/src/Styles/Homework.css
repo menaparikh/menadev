@@ -2,6 +2,8 @@
     display: flex;
     background-color: #8CA0D7;
     flex-direction: row;
+
+    width: 100%;
 }
 
 .main-header-text {

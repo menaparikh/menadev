@@ -2,10 +2,12 @@
 import React, { useState, useEffect } from 'react';
 import '../Styles/Homework.css';
 import Subcourse from '../Components/Subcourse';
+import Sidebar from '../Components/Sidebar';
 
 function Homework() {
   return (
     <div className="homework-parent">
+      <Sidebar/>
       <h1 className="homework-header-text">Course Search</h1>
       <div className="subcourses">
         {/* Put the subcourses here */}

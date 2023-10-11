@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 import girl from '../Assets/girl-studying.jpg';
 import '../Styles/Welcome.css';
+
+import Sidebar from '../Components/Sidebar';
 
 
 function Welcome() {
     return (
         <div className="welcome-parent">
+          <Sidebar/>
             <div className="welcome-left-content">
-                
+
             </div>
             <div className="welcome-right-content">
                 <div className="body-text">
