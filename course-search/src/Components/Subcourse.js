@@ -1,12 +1,15 @@
-// this represents one rectangle on the all the maths page
-
 import React, { useState } from 'react';
-import "../Styles/ComponentStyles/Subcourses.css";
+import '../Styles/ComponentStyles/Subcourses.css';
 
 function Subcourse({ courseName, barColor }) {
+  const [backgroundColor, setBackgroundColor] = useState(barColor);
+
   return (
-    <div className="sub-course-item">
-        <p className="sub-course-name-text">{courseName}</p>
+    <div
+      className="sub-course-item"
+      style={{ backgroundColor }}
+    >
+      <p className="sub-course-name-text">{courseName}</p>
     </div>
   );
 }

@@ -1,7 +1,8 @@
 .sub-course-item {
     width: 200px; 
     height: 100px;
-    background-color: #EDD3C4;
+    /*reminder: background color is controlled by the component 
+    in-line styles*/
     border: 2px solid #2980b9;
     margin: 20px;
     padding: 10px; 
