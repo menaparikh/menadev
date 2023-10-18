@@ -8,7 +8,7 @@
 }
 
 .about-content {
-    flex-grow: 1;
+    flex-grow: 1; /* grow to size of parent*/
     flex: 1;
     display: flex;
 }
