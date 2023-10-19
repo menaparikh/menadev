@@ -17,10 +17,7 @@ function About() {
           }}>About Me</h1>
           <div className="about-body">
             <div className="about-text">
-              <p style={{
-                fontSize: 30,
-                lineHeight: 1.5
-              }}>Hi, I'm Mena! I'm a 13 year old student and aspiring software
+              <p>Hi, I'm Mena! I'm a 13 year old student and aspiring software
                 developer. This is my first fully-hosted React project, and I'm
                 looking forward to building more! I want to refine my
                 skills as a developer to explore my future as a UI/UX web
@@ -29,10 +26,7 @@ function About() {
                 near-term goals would be to design and build out an
                 application to empower everyone - including middle schoolers -
                 to understand the power of investing (even a little bit at a time).</p>
-              <p style={{
-                fontSize: 20,
-                lineHeight: 1.5
-              }}>I decided to create Course Search because I thought it would
+              <p>I decided to create Course Search because I thought it would
                 be a helpful tool to students and it helps to create a deeper
                 understanding of each course. </p>
               <h2>Link to all of my past projects:</h2>
