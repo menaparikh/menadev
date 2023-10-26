@@ -13,7 +13,7 @@ function Main() {
         <CourseSquare courseName={"science"} />
         <CourseSquare courseName={"history"} />
         <CourseSquare courseName={"language"} />
-        <CourseSquare courseName={"world geo"} />
+        <CourseSquare courseName={"computer science"} />
         <CourseSquare courseName={"art"} />
       </div>
     </div>
