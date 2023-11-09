@@ -5,14 +5,14 @@ import Subcourse from '../Components/Subcourse';
 import Sidebar from '../Components/Sidebar';
 
 function Subcourses() {
-  const colors = ['orange', 'brown'];
+  const colors = ['#EDD3C4','#C3AC9F'];
   const courseNames = [
-    "Chemistry",
-    "Physics I",
-    "Physics II",
-    "Physics III",
-    "Biology",
-    "Geology"
+    "Spanish",
+    "French",
+    "Mandarin",
+    "Classics",
+    "English Enrichment",
+    "Japanese"
   ]
 
   return (

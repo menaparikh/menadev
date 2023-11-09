@@ -5,14 +5,14 @@ import Subcourse from '../Components/Subcourse';
 import Sidebar from '../Components/Sidebar';
 
 function Subcourses() {
-  const colors = ['orange', 'brown'];
+  const colors = ['#EDD3C4', '#C3AC9F'];
   const courseNames = [
-    "Trigonometry",
-    "Algebra I",
-    "Algebra II",
-    "Algebra III",
-    "Calculus AB",
-    "Calculus BC"
+    "Chemistry",
+    "Physics I",
+    "Physics II",
+    "Physics III",
+    "Biology",
+    "Geology"
   ]
 
   return (

@@ -5,14 +5,14 @@ import Subcourse from '../Components/Subcourse';
 import Sidebar from '../Components/Sidebar';
 
 function Subcourses() {
-  const colors = ['orange', 'brown'];
+  const colors = ['#EDD3C4','#C3AC9F'];
   const courseNames = [
-    "American History",
-    "World War I Studies",
-    "World War II Studies",
-    "African History",
-    "Civil War Studies",
-    "Chinese Civil War Studies"
+    "Painting",
+    "Photography",
+    "Ceramics",
+    "Intro to Theater",
+    "Advanced Theater",
+    "Writing & Directing"
   ]
 
   return (

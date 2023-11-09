@@ -4,7 +4,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Main from './Pages/Main';
 import Welcome from './Pages/Welcome';
 import About from './Pages/About';
-import Subcourses from './Pages/Subcourses'
+import SubcoursesArt from './Pages/SubcoursesArt'
+import SubcoursesCompSci from './Pages/SubcoursesCompSci'
+import SubcoursesHistory from './Pages/SubcoursesHistory'
+import SubcoursesLanguage from './Pages/SubcoursesLanguage'
+import SubcoursesMath from './Pages/SubcoursesMath'
+import SubcoursesScience from './Pages/SubcoursesScience'
 
 import './App.css';
 
@@ -19,7 +24,12 @@ function App() {
         <Route path="/" element={<Main/>}/>
         <Route path="/welcome" element={<Welcome/>}/>
         <Route path="/about" element={<About/>}/>
-        <Route path="/subcourse" element={<Subcourses/>}/>
+        <Route path="/subcourse/art" element={<SubcoursesArt/>}/>
+        <Route path="/subcourse/computer-science" element={<SubcoursesCompSci/>}/>
+        <Route path="/subcourse/history" element={<SubcoursesHistory/>}/>
+        <Route path="/subcourse/language" element={<SubcoursesLanguage/>}/>
+        <Route path="/subcourse/math" element={<SubcoursesMath/>}/>
+        <Route path="/subcourse/science" element={<SubcoursesScience/>}/>
       </Routes>
     </Router>
     </div>
