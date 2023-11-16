@@ -4,12 +4,12 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Main from './Pages/Main';
 import Welcome from './Pages/Welcome';
 import About from './Pages/About';
-import SubcoursesArt from './Pages/SubcoursesArt'
-import SubcoursesCompSci from './Pages/SubcoursesCompSci'
-import SubcoursesHistory from './Pages/SubcoursesHistory'
-import SubcoursesLanguage from './Pages/SubcoursesLanguage'
-import SubcoursesMath from './Pages/SubcoursesMath'
-import SubcoursesScience from './Pages/SubcoursesScience'
+import SubcoursesArt from './Pages/Subcourses/SubcoursesArt'
+import SubcoursesCompSci from './Pages/Subcourses/SubcoursesCompSci'
+import SubcoursesHistory from './Pages/Subcourses/SubcoursesHistory'
+import SubcoursesLanguage from './Pages/Subcourses/SubcoursesLanguage'
+import SubcoursesMath from './Pages/Subcourses/SubcoursesMath'
+import SubcoursesScience from './Pages/Subcourses/SubcoursesScience'
 
 import './App.css';
 

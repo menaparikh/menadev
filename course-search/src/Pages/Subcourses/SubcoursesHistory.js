@@ -1,8 +1,8 @@
 // // hint: reference Main.js and Main.css, as well as CourseSquare.js if you're stuck
 import React, { useState, useEffect } from 'react';
-import '../Styles/Subcourses.css';
-import Subcourse from '../Components/Subcourse';
-import Sidebar from '../Components/Sidebar';
+import '../../Styles/Subcourses.css';
+import Subcourse from '../../Components/Subcourse';
+import Sidebar from '../../Components/Sidebar';
 
 function Subcourses() {
   const colors = ['#EDD3C4'];
