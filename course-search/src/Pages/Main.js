@@ -9,12 +9,12 @@ function Main() {
       <Sidebar/>
       <h1 className="main-header-text">Course Search</h1>
       <div className="courses">
-        <CourseSquare courseName={"math"} to="/subcourse/math/" />
-        <CourseSquare courseName={"science"} to="/subcourse/science/"/>
-        <CourseSquare courseName={"history"} to="/subcourse/history/"/>
-        <CourseSquare courseName={"language"} to="/subcourse/language/" />
-        <CourseSquare courseName={"computer science"} to="/subcourse/computer-science/" />
-        <CourseSquare courseName={"art"} to="/subcourse/art"/>
+        <CourseSquare courseName={"math"} to="/menadev/subcourse/math/" />
+        <CourseSquare courseName={"science"} to="/menadev/subcourse/science/"/>
+        <CourseSquare courseName={"history"} to="/menadev/subcourse/history/"/>
+        <CourseSquare courseName={"language"} to="/menadev/subcourse/language/" />
+        <CourseSquare courseName={"computer science"} to="/menadev/subcourse/computer-science/" />
+        <CourseSquare courseName={"art"} to="/menadev/subcourse/art"/>
       </div>
     </div>
   );
