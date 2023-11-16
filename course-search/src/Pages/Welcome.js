@@ -10,11 +10,10 @@ function Welcome() {
         <div className="welcome-parent">
           <Sidebar/>
             <div className="welcome-left-content">
-
+            <h1>Welcome!</h1>
             </div>
             <div className="welcome-right-content">
-                <div className="body-text">
-                    <h1>Welcome</h1>
+                <div className="body-text">       
                     <h2>Thank you for visiting Course Search.</h2>
                     <p>Course Search is a location where students can go to find courses that
                         interest them. It is designed to let you set the keywords for the
