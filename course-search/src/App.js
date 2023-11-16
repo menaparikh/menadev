@@ -21,15 +21,15 @@ function App() {
     <div className="App">
       <Router>
       <Routes>
-        <Route path="/" element={<Main/>}/>
-        <Route path="/welcome" element={<Welcome/>}/>
-        <Route path="/about" element={<About/>}/>
-        <Route path="/subcourse/art" element={<SubcoursesArt/>}/>
-        <Route path="/subcourse/computer-science" element={<SubcoursesCompSci/>}/>
-        <Route path="/subcourse/history" element={<SubcoursesHistory/>}/>
-        <Route path="/subcourse/language" element={<SubcoursesLanguage/>}/>
-        <Route path="/subcourse/math" element={<SubcoursesMath/>}/>
-        <Route path="/subcourse/science" element={<SubcoursesScience/>}/>
+        <Route path="/menadev" element={<Main/>}/>
+        <Route path="/menadev/welcome" element={<Welcome/>}/>
+        <Route path="/menadev/about" element={<About/>}/>
+        <Route path="/menadev/subcourse/art" element={<SubcoursesArt/>}/>
+        <Route path="/menadev/subcourse/computer-science" element={<SubcoursesCompSci/>}/>
+        <Route path="/menadev/subcourse/history" element={<SubcoursesHistory/>}/>
+        <Route path="/menadev/subcourse/language" element={<SubcoursesLanguage/>}/>
+        <Route path="/menadev/subcourse/math" element={<SubcoursesMath/>}/>
+        <Route path="/menadev/subcourse/science" element={<SubcoursesScience/>}/>
       </Routes>
     </Router>
     </div>
