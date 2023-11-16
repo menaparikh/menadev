@@ -39,11 +39,6 @@ function Sidebar() {
               About
             </NavLink>
           </div>
-          <div className="sidebar-item">
-            <NavLink to="/subcourse" activeClassName="active">
-              Subcourse
-            </NavLink>
-          </div>
         </div>}
     </button>
 
