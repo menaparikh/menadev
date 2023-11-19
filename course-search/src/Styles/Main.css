@@ -1,9 +1,13 @@
 .main-parent {
-    display: flex;
     background-color: #8CA0D7;
-    flex-direction: column;
 
     width: 100%;
+    height: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .main-header-text {
