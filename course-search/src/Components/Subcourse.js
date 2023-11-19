@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Styles/ComponentStyles/Subcourses.css';
+import '../Styles/ComponentStyles/Subcourse.css';
 
 function Subcourse({ courseName, barColor }) {
   const [backgroundColor, setBackgroundColor] = useState(barColor);

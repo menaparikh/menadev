@@ -16,18 +16,20 @@ function Subcourses() {
   ]
 
   return (
-    <div className="homework-parent">
+    <div className="subcourses-parent">
       <Sidebar />
-      <h1 className="homework-header-text">Course Search</h1>
-      <div className="subcourses">
-        {/* Map over the course names and pass colors to Subcourse components */}
-        {courseNames.map((courseName, index) => (
-        <Subcourse
-          key={courseName}
-          courseName={courseName}
-          barColor={colors[index % colors.length]}
-        />
-        ))}
+      <div className="subcourses-content">
+        <h1 className="subcourses-header-text">Course Search</h1>
+        <div className="subcourses">
+          {/* Map over the course names and pass colors to Subcourse components */}
+          {courseNames.map((courseName, index) => (
+          <Subcourse
+            key={courseName}
+            courseName={courseName}
+            barColor={colors[index % colors.length]}
+          />
+          ))}
+        </div>
       </div>
     </div>
   );

@@ -1,20 +1,20 @@
-.homework-parent {
-    display: flex;
+.subcourses-parent {
     background-color: #8CA0D7;
-    flex-direction: row;
 
     width: 100%;
+    height: 120%;
 }
 
-.main-header-text {
+.subcourses-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.subcourses-header-text {
     align-self: center;
 }
 
-.courses {
-    display: flex;
-
-    justify-content:space-evenly;
-    
-    text-align: left;
+.subcourses {
+    margin-left: 10%;
+    margin-right: 10%;
 }
-
