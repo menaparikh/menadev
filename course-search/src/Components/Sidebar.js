@@ -6,9 +6,7 @@ import menuicon from '../Assets/menuicon.png';
 import '../Styles/ComponentStyles/Sidebar.css';
 
 function Sidebar() {
-  // TODO: when we move to a new page, close the navigation bar by setting state 
-  // to false 
-  const [navigationToggled, setNavigationToggled] = useState(true);
+  const [navigationToggled, setNavigationToggled] = useState(false);
 
   const toggleNavigation = () => {
     setNavigationToggled(!navigationToggled);
@@ -25,17 +23,17 @@ function Sidebar() {
       {navigationToggled &&
         <div className="navigation-bar">
           <div className="sidebar-item">
-            <NavLink to="/" activeClassName="active">
+            <NavLink to="/menadev" activeClassName="active">
               Home
             </NavLink>
           </div>
           <div className="sidebar-item">
-            <NavLink to="/welcome" activeClassName="active">
+            <NavLink to="/menadev/welcome" activeClassName="active">
               Welcome
             </NavLink>
           </div>
           <div className="sidebar-item">
-            <NavLink to="/about" activeClassName="active">
+            <NavLink to="/menadev/about" activeClassName="active">
               About
             </NavLink>
           </div>
