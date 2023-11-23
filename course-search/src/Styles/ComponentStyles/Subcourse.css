@@ -6,4 +6,16 @@
     padding-bottom: 2.5%;
     color: black; 
     text-align: center; 
+
+    transition: filter 0.3s ease; /* Add transition for smooth animation */
 }
+
+.sub-course-item:hover {
+filter: brightness(40%); /* Adjust brightness for hover state */
+}
+
+.sub-course-item.active {
+/* Styles for the active/clicked state */
+filter: brightness(40%); /* Adjust brightness for active/clicked state */
+}
+  
