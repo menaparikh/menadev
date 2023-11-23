@@ -1,3 +1,73 @@
-.navigation-bar {
-    /* border: 1px solid black; */
-}
+/* Sidebar.css */
+
+.sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60px; /* Adjust width based on your design */
+    display: flex;
+    flex-direction: column;
+    background-color: #8CA0D7;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .menu-button {
+    background-color: #8CA0D7;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navigation-bar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar-container.open {
+    width: 250px; /* Adjust width based on your design */
+  }
+  
+  .sidebar-item {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    display: block;
+    padding: 8px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .sidebar-item a:hover {
+    background-color: #ddd;
+  }
+  
+  .sidebar-item a.active {
+    font-weight: bold;
+    color: #007bff;
+    background-color: #6b7cbb; /* Active link background color */
+  }
+  
+  /* Adjustments based on your color scheme */
+  .menu-button:hover {
+    background-color: #6b7cbb;
+  }
+  
+  .sidebar-item a:hover {
+    background-color: #ccc;
+  }
+  
