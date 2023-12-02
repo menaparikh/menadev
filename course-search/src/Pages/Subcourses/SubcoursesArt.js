@@ -54,13 +54,6 @@ function Subcourses() {
               courseName={name}
               description={getCourseDescription(name)}
               barColor={colors[index % colors.length]}
-              // onClick={() => {
-              //   // Dynamically set the courseName and description based on the clicked course
-              //   setCourseName(name);
-              //   setDescription(getCourseDescription(name));
-              //   console.log(description);
-              //   setIsModalOpen(true);
-              // }}
             />
           ))}
         </div>
