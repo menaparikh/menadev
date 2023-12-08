@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+
 import girl from '../Assets/girl-studying.jpg';
 import '../Styles/Welcome.css';
 
@@ -25,7 +27,13 @@ function Welcome() {
                     <img src={girl} style={{
                         width: '75%',
                         height: '40%'
-                    }}/>
+                    }}
+                    alt="girl studying"
+                    />
+                    {/* Button for navigation */}
+                    <Link to="/menadev/" className="next-button">
+                        Cool! Take me to the app.
+                    </Link>
                 </div>
             </div>
         </div>

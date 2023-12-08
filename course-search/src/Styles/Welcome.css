@@ -64,3 +64,20 @@ img {
         padding: 10px; /* Adjust as needed */
     }
 }
+
+.next-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #8CA0D7;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #6F80B5;
+}
