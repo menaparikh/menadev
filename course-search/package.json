@@ -2,7 +2,7 @@
   "name": "course-search",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://menaparikh.github.io/menadev/welcome",
+  "homepage": "https://menaparikh.github.io/menadev/welcome/",
   "dependencies": {
     "@fontsource/readex-pro": "^5.0.8",
     "@testing-library/jest-dom": "^5.17.0",
