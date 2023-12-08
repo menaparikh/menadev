@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../../Styles/Subcourses.css';
+import Sidebar from '../../Components/Sidebar';
 import Subcourse from '../../Components/Subcourse';
 import SubcourseDescription from '../../Components/SubcourseDescription';
 
@@ -45,6 +46,7 @@ function Subcourses() {
 
   return (
     <div className="subcourses-parent">
+      <Sidebar/>
       <div className="subcourses-content">
         <h1 className="subcourses-header-text">Course Search</h1>
         <div className="subcourses">
