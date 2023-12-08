@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/menadev/welcome/static/css/main.dce1a109.css",
-    "main.js": "/menadev/welcome/static/js/main.aab19d23.js",
+    "main.css": "/menadev/welcome/static/css/main.b3e4067f.css",
+    "main.js": "/menadev/welcome/static/js/main.45bf4914.js",
     "static/js/787.8a400665.chunk.js": "/menadev/welcome/static/js/787.8a400665.chunk.js",
     "static/media/profpic.jpg": "/menadev/welcome/static/media/profpic.18d7731e5757d4b61749.jpg",
     "static/media/girl-studying.jpg": "/menadev/welcome/static/media/girl-studying.7d6b87204f31b2fa247a.jpg",
@@ -15,12 +15,12 @@
     "static/media/readex-pro-vietnamese-400-normal.woff": "/menadev/welcome/static/media/readex-pro-vietnamese-400-normal.d382b0917bde2c9f0bbf.woff",
     "static/media/readex-pro-vietnamese-400-normal.woff2": "/menadev/welcome/static/media/readex-pro-vietnamese-400-normal.231c540556a6c358e5d7.woff2",
     "index.html": "/menadev/welcome/index.html",
-    "main.dce1a109.css.map": "/menadev/welcome/static/css/main.dce1a109.css.map",
-    "main.aab19d23.js.map": "/menadev/welcome/static/js/main.aab19d23.js.map",
+    "main.b3e4067f.css.map": "/menadev/welcome/static/css/main.b3e4067f.css.map",
+    "main.45bf4914.js.map": "/menadev/welcome/static/js/main.45bf4914.js.map",
     "787.8a400665.chunk.js.map": "/menadev/welcome/static/js/787.8a400665.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dce1a109.css",
-    "static/js/main.aab19d23.js"
+    "static/css/main.b3e4067f.css",
+    "static/js/main.45bf4914.js"
   ]
 }
