@@ -17,4 +17,4 @@ Over the past 12 months, I have created:
 * Turtle Mini Projects (learning fundamentals)
 * Course Search
 
-These projects have each taught me new skills. Open up each project to see the skills I've learned for that project.
+These projects have each taught me new skills. Open up each project and take a look inside!
